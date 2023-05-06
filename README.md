@@ -12,12 +12,24 @@ This project is a web application that allows users to check the weather forecas
 * CSS
 * Laravel
 * OpenWeatherMap API
-## Getting Started
-To get started with the project, simply clone the repository to your local machine and open the folder in your code editor(Vs Code)
-* `git clone (THIS REPO NAME)`
-### For Fronted 
-1. run `npm i`
-2. run `npm run build`
+
+## Project Setup
+Git clone -
+```console
+git clone https://github.com/vikashmehta07/weather-app.git
+```
+Go to project folder -
+```console
+cd weather-app-react
+```
+Install Dependencies -
+```console
+npm i
+```
+Run Project -
+```
+npm run build
+```
 
 ### Configuring API Key
 In order to retrieve weather data, the app requires an API key from Weather-app-backend. You can obtain a  API key by clonong this repo . 
