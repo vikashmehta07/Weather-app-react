@@ -11,7 +11,7 @@ This project is a web application that allows users to check the weather forecas
 * The app is responsive and optimized for use on desktop and mobile devices.
 ## Technologies Used
 * REACT
-* CSS
+* Tailwind CSS
 * Laravel
 * OpenWeatherMap API
 
