@@ -1,6 +1,8 @@
 # Weather App
 This project is a web application that allows users to check the weather forecast for a specific location. The app retrieves data from a weather API and displays it to the user in an intuitive and easy-to-understand format.
 
+**Live Demo:** https://master--enchanting-fairy-2dec36.netlify.app/
+
 ## Features
 * Users can search for a location using a search bar.
 * The app displays current weather conditions.
