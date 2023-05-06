@@ -3,7 +3,8 @@ import { BrowserRouter } from "react-router-dom";
 
 import React, { useEffect, useState } from "react";
 const api = {
-  base: process.env.REACT_APP_API_URL,
+  key:"9f650d15b712241a3b9abbc4b053bda3",
+  base: "https://api.openweathermap.org/data/2.5/",
 };
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
 
   const search = (evt) => {
     evt.preventDefault();
-    fetch(`${api.base}weather?city=${query}&units=metric`)
+    fetch(`${api.base}weather?q=${query}&units=metric&appid=${api.key}`)
       .then((res) => res.json())
       .then((result) => {
         setWeather(result);
@@ -23,7 +24,7 @@ function App() {
   };
   // for default weather where city = Mumbai
   useEffect(() => {
-    fetch(`${api.base}weather?city=Mumbai&units=metric`)
+    fetch(`${api.base}weather?q=mumbai&units=metric&appid=${api.key}`)
       .then((res) => res.json())
       .then((result) => {
         setWeather(result);
