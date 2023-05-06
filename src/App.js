@@ -3,7 +3,7 @@ import { BrowserRouter } from "react-router-dom";
 
 import React, { useEffect, useState } from "react";
 const api = {
-  base: http://13.235.113.175/api/
+  base: "http://13.235.113.175/api/"
 };
 
 function App() {
