@@ -34,7 +34,7 @@ npm run build
 ```
 
 ### Configuring API Key
-In order to retrieve weather data, the app requires an API key from Weather-app-backend. You can obtain a  API key by clonong this repo . 
+In order to retrieve weather data, the app requires an API key from Weather-app-backend. You can obtain a  API key by cloning this repo . 
 Once you have your API key, replace it with your own key:
 
 **Weather-app-backend link:** https://github.com/vikashmehta07/weather-app
